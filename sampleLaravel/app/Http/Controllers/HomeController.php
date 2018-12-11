@@ -52,7 +52,7 @@ class HomeController extends Controller
         $header = array();
         $header[] = 'Content-type:application/json';
         $header[] = 'Authorization:Basic TXlydGVjK0FmdUh3cVlLMllNNlplRGg6WXhaYkVLWTkyRzNvUUUxRA==';
-        $header[] = 'Access-Control-Allow-Origin:*';
+        $header[] = 'Access-Control-Allow-Origin:http://localhost:3000';
 
         $url = "https://api-aus.myconnectwise.net/v2018_6/apis/3.0/company/companies/?pageSize=1000&page=1";
         $ch = curl_init();

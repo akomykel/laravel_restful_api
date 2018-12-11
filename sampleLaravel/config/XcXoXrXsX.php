@@ -12,8 +12,8 @@ return [
     |
     */
 
-    'supportsCredentials' => false,
-    'allowedOrigins' => ['*'],
+    'supportsCredentials' => true,
+    'allowedOrigins' => ['http://localhost:3000/companies'],
     'allowedOriginsPatterns' => ['Content-Type', 'X-Requested-With'],
     'allowedHeaders' => ['*'],
     'allowedMethods' => ['*'],
